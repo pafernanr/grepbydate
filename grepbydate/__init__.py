@@ -1,4 +1,3 @@
-#!/usr/bin/python
 import argparse
 from datetime import datetime
 import gzip
