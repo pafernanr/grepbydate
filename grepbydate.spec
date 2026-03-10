@@ -1,7 +1,7 @@
 Name: grepbydate
 Version: 0.0.0
 Release: py3
-Summary: Show events from log files converting input date formats to a unique format: '%Y-%m-%d %H:%M:%S'.
+Summary: "Show events from log files converting input date formats to a unique format: '%%Y-%%m-%%d %%H:%%M:%%S'."
 
 License: GPLv3
 URL:            https://github.com/pafernanr/grepbydate
@@ -14,7 +14,7 @@ BuildRequires:  python3-devel
 BuildRequires:  python3-setuptools
 
 %description
-Show events from log files converting input date formats to a unique format: '%Y-%m-%d %H:%M:%S'.
+"Show events from log files converting input date formats to a unique format: '%%Y-%%m-%%d %%H:%%M:%%S'."
 
 %prep
 %setup -qn %{name}-%{version}
